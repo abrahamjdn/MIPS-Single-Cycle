@@ -1,0 +1,41 @@
+
+`timescale 1ns/1ns
+
+module inst_mem_tb;
+
+ reg	clk_tb;
+ reg [31:0]	address_tb;
+
+ wire [31:0]	inst_tb;
+
+ integer i;
+
+inst_mem UUT( 
+			.clk	( clk_tb ),
+			.address	( address_tb ),
+			.inst	( inst_tb )  );
+
+initial begin
+
+
+ clk_tb	=	1'b0;
+
+ #10;
+
+
+  for ( i=0 ; i<5 ; i=i+1 )
+  begin
+     address = i; 
+     #10;
+  end
+
+
+ $finish();
+
+ end
+ 
+ always 
+	#5 clk= ~clk;
+endmodule
+
+

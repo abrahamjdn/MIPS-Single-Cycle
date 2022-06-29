@@ -1,0 +1,283 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do MIPS_SC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/ALU.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:10 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 02:16:10 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/ALUControl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:10 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/ALUControl.v 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 02:16:10 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/SignExt.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:10 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/SignExt.v 
+# -- Compiling module SignExt
+# 
+# Top level modules:
+# 	SignExt
+# End time: 02:16:10 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/control_unit.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:10 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 02:16:10 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/Adder.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:10 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/Adder.v 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 02:16:10 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/mux.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/branch_decoder.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/branch_decoder.v 
+# -- Compiling module branch_decoder
+# 
+# Top level modules:
+# 	branch_decoder
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/PC.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/MIPS.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/MIPS.v 
+# -- Compiling module MIPS
+# 
+# Top level modules:
+# 	MIPS
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/register_file.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/register_file.v 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/data_memory.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/inst_mem.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/inst_mem.v 
+# -- Compiling module inst_mem
+# 
+# Top level modules:
+# 	inst_mem
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle {C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 02:16:11 on Jun 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus/Diplomado/mips_single_cycle" C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v 
+# -- Compiling module MIPS_tb
+# 
+# Top level modules:
+# 	MIPS_tb
+# End time: 02:16:11 on Jun 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  MIPS_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" MIPS_tb 
+# Start time: 02:16:11 on Jun 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.MIPS_tb(fast)
+# Loading work.MIPS(fast)
+# Loading work.PC(fast)
+# Loading work.inst_mem(fast)
+# Loading work.register_file(fast)
+# Loading work.ALU(fast)
+# Loading work.ALUControl(fast)
+# Loading work.data_memory(fast)
+# Loading work.SignExt(fast)
+# Loading work.control_unit(fast)
+# Loading work.Adder(fast)
+# Loading work.branch_decoder(fast)
+# Loading work.mux(fast)
+# Loading work.mux(fast__1)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3826) $dumpfile : This task should be called prior to the $dumpvars
+# task.  The $dumpfile task will be ignored.
+#    Time: 0 ps  Iteration: 0  Process: /MIPS_tb/#INITIAL#29 File: C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v Line: 31
+#           0	         0	       117
+#           1	         0	        88
+#           2	         0	        66
+#           3	         0	        19
+#           4	         0	         1
+#           5	         0	         5
+#           6	         0	         0
+#           7	         0	         1
+#           8	         3	         0
+#           9	         1	         0
+#          10	         4	         0
+#          11	        19	         0
+#          12	         1	         0
+#          13	         1	         0
+#          14	         0	         0
+#          15	         1	         0
+#          16	         0	         0
+#          17	         5	         0
+#          18	         0	         0
+#          19	         0	         0
+#          20	         0	         0
+#          21	         0	         0
+#          22	         0	         0
+#          23	         0	         0
+#          24	         5	         0
+#          25	         5	         0
+#          26	         0	         0
+#          27	         0	         0
+#          28	         0	         0
+#          29	         0	         0
+#          30	         0	         0
+#          31	         0	         0
+# ** Note: $finish    : C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v(22)
+#    Time: 282 ns  Iteration: 0  Instance: /MIPS_tb
+# 1
+# Break in Module MIPS_tb at C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v line 22
+do C:/quartus/Diplomado/mips_single_cycle/simulation/modelsim/wave.do
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.MIPS_tb(fast)
+# Loading work.MIPS(fast)
+# Loading work.PC(fast)
+# Loading work.inst_mem(fast)
+# Loading work.register_file(fast)
+# Loading work.ALU(fast)
+# Loading work.ALUControl(fast)
+# Loading work.data_memory(fast)
+# Loading work.SignExt(fast)
+# Loading work.control_unit(fast)
+# Loading work.Adder(fast)
+# Loading work.branch_decoder(fast)
+# Loading work.mux(fast)
+# Loading work.mux(fast__1)
+run -all
+# ** Warning: (vsim-PLI-3826) $dumpfile : This task should be called prior to the $dumpvars
+# task.  The $dumpfile task will be ignored.
+#    Time: 0 ps  Iteration: 0  Process: /MIPS_tb/#INITIAL#29 File: C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v Line: 31
+#           0	         0	       117
+#           1	         0	        88
+#           2	         0	        66
+#           3	         0	        19
+#           4	         0	         1
+#           5	         0	         5
+#           6	         0	         0
+#           7	         0	         1
+#           8	         3	         0
+#           9	         1	         0
+#          10	         4	         0
+#          11	        19	         0
+#          12	         1	         0
+#          13	         1	         0
+#          14	         0	         0
+#          15	         1	         0
+#          16	         0	         0
+#          17	         5	         0
+#          18	         0	         0
+#          19	         0	         0
+#          20	         0	         0
+#          21	         0	         0
+#          22	         0	         0
+#          23	         0	         0
+#          24	         5	         0
+#          25	         5	         0
+#          26	         0	         0
+#          27	         0	         0
+#          28	         0	         0
+#          29	         0	         0
+#          30	         0	         0
+#          31	         0	         0
+# ** Note: $finish    : C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v(22)
+#    Time: 282 ns  Iteration: 0  Instance: /MIPS_tb
+# 1
+# Break in Module MIPS_tb at C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v line 22
+# End time: 02:19:15 on Jun 29,2022, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 1

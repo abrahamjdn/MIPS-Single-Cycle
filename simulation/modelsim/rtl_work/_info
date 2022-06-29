@@ -1,0 +1,328 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus/Diplomado/mips_single_cycle/simulation/modelsim
+T_opt
+!s110 1656486972
+V;ZG6TA?V@Hfnf?nQk`B<[3
+04 7 4 work MIPS_tb fast 0
+=1-2cf05d371668-62bbfc3b-30c-6364
+!s124 OEM10U18 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vAdder
+Z2 !s110 1656486970
+!i10b 1
+!s100 `0P04TFb1;I8E_@TIRi>M1
+ISk[Sf^YFX0kH_e=JKfPEd2
+R0
+w1655142153
+8C:/quartus/Diplomado/mips_single_cycle/Adder.v
+FC:/quartus/Diplomado/mips_single_cycle/Adder.v
+!i122 4
+Z3 L0 1 8
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1656486970.000000
+!s107 C:/quartus/Diplomado/mips_single_cycle/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/Adder.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/quartus/Diplomado/mips_single_cycle -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@adder
+vALU
+R2
+!i10b 1
+!s100 WnNnE2H9acf0K]9@eHTVc1
+IKUzSMhZEcCHJ6[c<2ol<Z1
+R0
+w1655141956
+8C:/quartus/Diplomado/mips_single_cycle/ALU.v
+FC:/quartus/Diplomado/mips_single_cycle/ALU.v
+!i122 0
+L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/quartus/Diplomado/mips_single_cycle/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/ALU.v|
+!i113 0
+R7
+R8
+R1
+n@a@l@u
+vALUControl
+R2
+!i10b 1
+!s100 gghg^SOel^6KE_Y9XiW:@3
+I84oPXfl[jClckkX[gKa6a0
+R0
+w1655141957
+8C:/quartus/Diplomado/mips_single_cycle/ALUControl.v
+FC:/quartus/Diplomado/mips_single_cycle/ALUControl.v
+!i122 1
+L0 1 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/quartus/Diplomado/mips_single_cycle/ALUControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/ALUControl.v|
+!i113 0
+R7
+R8
+R1
+n@a@l@u@control
+vbranch_decoder
+Z9 !s110 1656486971
+!i10b 1
+!s100 B:^HVB]7Q]fNPT4@TfdcD3
+IDYOEiKJh^Jl]?hbWE4Q`B1
+R0
+w1655142182
+8C:/quartus/Diplomado/mips_single_cycle/branch_decoder.v
+FC:/quartus/Diplomado/mips_single_cycle/branch_decoder.v
+!i122 6
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1656486971.000000
+!s107 C:/quartus/Diplomado/mips_single_cycle/branch_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/branch_decoder.v|
+!i113 0
+R7
+R8
+R1
+vcontrol_unit
+R2
+!i10b 1
+!s100 HD352ee8FWn8KG5a=SFHA2
+IhV2P9JHSN1l372?Po:J;=0
+R0
+w1655142334
+8C:/quartus/Diplomado/mips_single_cycle/control_unit.v
+FC:/quartus/Diplomado/mips_single_cycle/control_unit.v
+!i122 3
+L0 1 80
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/quartus/Diplomado/mips_single_cycle/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/control_unit.v|
+!i113 0
+R7
+R8
+R1
+vdata_memory
+R9
+!i10b 1
+!s100 9bb=a<9gS]DKiHaLQQgYS0
+IOANYAZ;E14m8oPhmGJIYn0
+R0
+Z11 w1655189819
+8C:/quartus/Diplomado/mips_single_cycle/data_memory.v
+FC:/quartus/Diplomado/mips_single_cycle/data_memory.v
+!i122 10
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/data_memory.v|
+!i113 0
+R7
+R8
+R1
+vinst_mem
+R9
+!i10b 1
+!s100 20hZGA2XdAQWeE]L6CkaS3
+IPIEOaDO4KIcG6EFazG@oO3
+R0
+w1655188663
+8C:/quartus/Diplomado/mips_single_cycle/inst_mem.v
+FC:/quartus/Diplomado/mips_single_cycle/inst_mem.v
+!i122 11
+L0 1 16
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/inst_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/inst_mem.v|
+!i113 0
+R7
+R8
+R1
+vMIPS
+R9
+!i10b 1
+!s100 :ARYAc[]8@MCJm5=HU7XI3
+I:?0E9R183dYFQi:^TLTdz0
+R0
+w1655142214
+8C:/quartus/Diplomado/mips_single_cycle/MIPS.v
+FC:/quartus/Diplomado/mips_single_cycle/MIPS.v
+!i122 8
+L0 13 47
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/MIPS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/MIPS.v|
+!i113 0
+R7
+R8
+R1
+n@m@i@p@s
+vMIPS_tb
+R9
+!i10b 1
+!s100 C16_:b=Gn2oLNN00THdMi2
+IYT@@k5kbeYj2[iC@mV24;1
+R0
+w1655193009
+8C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v
+FC:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v
+!i122 12
+L0 2 33
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/MIPS_tb.v|
+!i113 0
+R7
+R8
+R1
+n@m@i@p@s_tb
+vmux
+R9
+!i10b 1
+!s100 b3@1EhOE[X_bOcVNGKYAV1
+I=X=Yd;<TAJ]UV:17Lo<Ok0
+R0
+w1655142166
+8C:/quartus/Diplomado/mips_single_cycle/mux.v
+FC:/quartus/Diplomado/mips_single_cycle/mux.v
+!i122 5
+L0 3 17
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/mux.v|
+!i113 0
+R7
+R8
+R1
+vPC
+R9
+!i10b 1
+!s100 ZgP8JW7V[h<@>GVPggd[Q3
+I43Zo6nf1E4Rkk3OAbfl=63
+R0
+w1655142193
+8C:/quartus/Diplomado/mips_single_cycle/PC.v
+FC:/quartus/Diplomado/mips_single_cycle/PC.v
+!i122 7
+L0 1 13
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/PC.v|
+!i113 0
+R7
+R8
+R1
+n@p@c
+vregister_file
+R9
+!i10b 1
+!s100 >;7oVWPQIl@WANR:Ak@V62
+IoUo@71Z2i^;E_Z?5KRmzY2
+R0
+R11
+8C:/quartus/Diplomado/mips_single_cycle/register_file.v
+FC:/quartus/Diplomado/mips_single_cycle/register_file.v
+!i122 9
+L0 1 30
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/quartus/Diplomado/mips_single_cycle/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/register_file.v|
+!i113 0
+R7
+R8
+R1
+vSignExt
+R2
+!i10b 1
+!s100 FhQEGj`zFoz?dI=A1lXNV1
+IY1]didb6>=mz6z7<>nEK52
+R0
+w1655142011
+8C:/quartus/Diplomado/mips_single_cycle/SignExt.v
+FC:/quartus/Diplomado/mips_single_cycle/SignExt.v
+!i122 2
+L0 1 7
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/quartus/Diplomado/mips_single_cycle/SignExt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus/Diplomado/mips_single_cycle|C:/quartus/Diplomado/mips_single_cycle/SignExt.v|
+!i113 0
+R7
+R8
+R1
+n@sign@ext
